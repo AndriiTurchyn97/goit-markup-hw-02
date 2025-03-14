@@ -11,37 +11,35 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html" class="link-logo"
-          ><span class="logo-web logo-text">Web</span
-          ><span class="logo-studio logo-text">Studio</span></a
+        <a class="logo header-logo" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
         >
-        <ul class="but-nav">
-          <li><a href="" class="but-studio">Studio</a></li>
-          <li><a href="" class="but-portfolio">Portfolio</a></li>
-          <li><a href="" class="but-contacts">Contacts</a></li>
+        <ul class="ssct-nav">
+          <li><a href="./index.html" class="btn-nav">Studio</a></li>
+          <li><a href="" class="btn-nav">Portfolio</a></li>
+          <li><a href="" class="btn-nav">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="link-mail-phone">
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com" class="link-mail"
+            <a href="mailto:info@devstudio.com" class="link-address"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+110001111111" class="link-phone"
+            <a href="tel:+110001111111" class="link-address"
               >+11 (000) 111-11-11</a
             >
             <br />
@@ -93,7 +91,7 @@
       <section class="sect-team">
         <h2 class="title-our-two">Our Team</h2>
         <ul>
-          <li>
+          <li class="team">
             <img
               src="./images/mark.jpg"
               alt="mark_guerrero"
@@ -103,7 +101,7 @@
             <h3 class="title-our-three">Mark Guerrero</h3>
             <p class="p-text">Product Designer</p>
           </li>
-          <li>
+          <li class="team">
             <img
               src="./images/tom.jpg"
               alt="tom_ford"
@@ -114,7 +112,7 @@
             <p class="p-text">Frontend Developer</p>
           </li>
 
-          <li>
+          <li class="team">
             <img
               src="./images/camila.jpg"
               alt="camila_garcia"
@@ -124,7 +122,7 @@
             <h3 class="title-our-three">Camila Garcia</h3>
             <p class="p-text">Marketing</p>
           </li>
-          <li>
+          <li class="team">
             <img
               src="./images/daniel.jpg"
               alt="daniel_wilson"
@@ -146,7 +144,6 @@
               width="360"
               height="300"
             />
-            <br />
             <h3 class="title-our-three">Banking App</h3>
             <p class="p-text">App</p>
           </li>
@@ -157,7 +154,7 @@
               width="360"
               height="300"
             />
-            <br />
+
             <h3 class="title-our-three">Cashless Payment</h3>
             <p class="p-text">Marketing</p>
           </li>
@@ -168,7 +165,7 @@
               width="360"
               height="300"
             />
-            <br />
+
             <h3 class="title-our-three">Meditation App</h3>
             <p class="p-text">App</p>
           </li>
@@ -179,7 +176,7 @@
               width="360"
               height="300"
             />
-            <br />
+
             <h3 class="title-our-three">Taxi Service</h3>
             <p class="p-text">Marketing</p>
           </li>
@@ -190,7 +187,7 @@
               width="360"
               height="300"
             />
-            <br />
+
             <h3 class="title-our-three">Screen Illustrations</h3>
             <p class="p-text">Design</p>
           </li>
@@ -208,9 +205,8 @@
       </section>
     </main>
     <footer class="page-footer">
-      <a href="./index.html" class="link-logo"
-        ><span class="logo-web logo-text">Web</span
-        ><span class="logo-studio-f logo-text">Studio</span></a
+      <a class="logo footer-logo" href="./index.html"
+        >Web<span class="logo-part">Studio</span></a
       >
       <p class="footer-text p-text">
         Increase the flow of customers and sales for your business with digital
